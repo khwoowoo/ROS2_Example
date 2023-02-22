@@ -1,0 +1,121 @@
+[0.000000] (-) TimerEvent: {}
+[0.000502] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000554] (cpp_srvcli) JobQueued: {'identifier': 'cpp_srvcli', 'dependencies': OrderedDict()}
+[0.001589] (cpp_srvcli) JobStarted: {'identifier': 'cpp_srvcli'}
+[0.008438] (cpp_srvcli) JobProgress: {'identifier': 'cpp_srvcli', 'progress': 'cmake'}
+[0.009418] (cpp_srvcli) JobProgress: {'identifier': 'cpp_srvcli', 'progress': 'build'}
+[0.009470] (cpp_srvcli) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/add/Projects/ROS2/test3/build/cpp_srvcli', '--', '-j20', '-l20'], 'cwd': '/home/add/Projects/ROS2/test3/build/cpp_srvcli', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'add'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('WT_PROFILE_ID', '{59b72ad2-09f7-55ec-af87-65d062af8472}'), ('HOME', '/home/add'), ('OLDPWD', '/home/add/Projects/ROS2/test3/src'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'add'), ('NAME', 'DESKTOP-G7U52L9'), ('WSL_INTEROP', '/run/WSL/1066_interop'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/TortoiseSVN/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Microsoft SQL Server/130/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/Bandizip/:/mnt/c/Program Files/MySQL/MySQL Utilities 1.6/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/add/anaconda3:/mnt/c/Users/add/anaconda3/Library:/mnt/c/Users/add/anaconda3/Scripts:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Python27:/mnt/c/Python38/Scripts/:/mnt/c/Python38/:/mnt/c/Python27/Scripts/:/mnt/c/Users/add/AppData/Local/Programs/Python/Python36/Scripts/:/mnt/c/Users/add/AppData/Local/Programs/Python/Python36/:/mnt/c/Users/add/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/add/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/add/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/add/.dotnet/tools:/mnt/c/Users/add/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files/JetBrains/PyCharm Community Edition 2022.2.4/bin:/mnt/c/Users/add/AppData/Local/GitHubDesktop/bin:/snap/bin'), ('WT_SESSION', '90ee8e72-0d86-4ca8-aae8-dd095e1f8f03'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/add/Projects/ROS2/test3/build/cpp_srvcli'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION::WT_PROFILE_ID'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.027243] (cpp_srvcli) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.041084] (cpp_srvcli) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.100051] (-) TimerEvent: {}
+[0.162334] (cpp_srvcli) StdoutLine: {'line': b'-- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.200165] (-) TimerEvent: {}
+[0.280479] (cpp_srvcli) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.282696] (cpp_srvcli) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.300268] (-) TimerEvent: {}
+[0.400573] (-) TimerEvent: {}
+[0.500845] (-) TimerEvent: {}
+[0.601112] (-) TimerEvent: {}
+[0.701425] (-) TimerEvent: {}
+[0.801730] (-) TimerEvent: {}
+[0.902001] (-) TimerEvent: {}
+[1.002268] (-) TimerEvent: {}
+[1.102539] (-) TimerEvent: {}
+[1.202822] (-) TimerEvent: {}
+[1.303089] (-) TimerEvent: {}
+[1.403380] (-) TimerEvent: {}
+[1.503660] (-) TimerEvent: {}
+[1.603944] (-) TimerEvent: {}
+[1.704231] (-) TimerEvent: {}
+[1.804542] (-) TimerEvent: {}
+[1.904814] (-) TimerEvent: {}
+[2.005110] (-) TimerEvent: {}
+[2.105404] (-) TimerEvent: {}
+[2.205686] (-) TimerEvent: {}
+[2.305955] (-) TimerEvent: {}
+[2.406262] (-) TimerEvent: {}
+[2.506536] (-) TimerEvent: {}
+[2.606866] (-) TimerEvent: {}
+[2.707137] (-) TimerEvent: {}
+[2.807423] (-) TimerEvent: {}
+[2.907726] (-) TimerEvent: {}
+[3.008079] (-) TimerEvent: {}
+[3.108370] (-) TimerEvent: {}
+[3.208666] (-) TimerEvent: {}
+[3.308970] (-) TimerEvent: {}
+[3.382942] (cpp_srvcli) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.409075] (-) TimerEvent: {}
+[3.416852] (cpp_srvcli) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[3.417783] (cpp_srvcli) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.509222] (-) TimerEvent: {}
+[3.515988] (cpp_srvcli) StdoutLine: {'line': b'-- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)\n'}
+[3.589560] (cpp_srvcli) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[3.609358] (-) TimerEvent: {}
+[3.631916] (cpp_srvcli) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[3.635307] (cpp_srvcli) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.635511] (cpp_srvcli) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[3.635583] (cpp_srvcli) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.638531] (cpp_srvcli) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[3.638605] (cpp_srvcli) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[3.639150] (cpp_srvcli) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[3.640527] (cpp_srvcli) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.641217] (cpp_srvcli) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[3.644490] (cpp_srvcli) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.644564] (cpp_srvcli) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.645087] (cpp_srvcli) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.646359] (cpp_srvcli) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.654107] (cpp_srvcli) StdoutLine: {'line': b'-- Generating done\n'}
+[3.655313] (cpp_srvcli) StdoutLine: {'line': b'-- Build files have been written to: /home/add/Projects/ROS2/test3/build/cpp_srvcli\n'}
+[3.671151] (cpp_srvcli) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target server\x1b[0m\n'}
+[3.671726] (cpp_srvcli) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target client\x1b[0m\n'}
+[3.685369] (cpp_srvcli) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/client.dir/src/add_two_ints_client.cpp.o\x1b[0m\n'}
+[3.689726] (cpp_srvcli) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/server.dir/src/add_two_ints_server.cpp.o\x1b[0m\n'}
+[3.709551] (-) TimerEvent: {}
+[3.809878] (-) TimerEvent: {}
+[3.910225] (-) TimerEvent: {}
+[4.010567] (-) TimerEvent: {}
+[4.110877] (-) TimerEvent: {}
+[4.211202] (-) TimerEvent: {}
+[4.311539] (-) TimerEvent: {}
+[4.411861] (-) TimerEvent: {}
+[4.512207] (-) TimerEvent: {}
+[4.612525] (-) TimerEvent: {}
+[4.712805] (-) TimerEvent: {}
+[4.813115] (-) TimerEvent: {}
+[4.913427] (-) TimerEvent: {}
+[5.013764] (-) TimerEvent: {}
+[5.114109] (-) TimerEvent: {}
+[5.141997] (cpp_srvcli) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable server\x1b[0m\n'}
+[5.214219] (-) TimerEvent: {}
+[5.284987] (cpp_srvcli) StdoutLine: {'line': b'[ 75%] Built target server\n'}
+[5.314411] (-) TimerEvent: {}
+[5.332869] (cpp_srvcli) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable client\x1b[0m\n'}
+[5.414535] (-) TimerEvent: {}
+[5.482917] (cpp_srvcli) StdoutLine: {'line': b'[100%] Built target client\n'}
+[5.489428] (cpp_srvcli) CommandEnded: {'returncode': 0}
+[5.505634] (cpp_srvcli) JobProgress: {'identifier': 'cpp_srvcli', 'progress': 'install'}
+[5.511752] (cpp_srvcli) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/add/Projects/ROS2/test3/build/cpp_srvcli'], 'cwd': '/home/add/Projects/ROS2/test3/build/cpp_srvcli', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'add'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('WT_PROFILE_ID', '{59b72ad2-09f7-55ec-af87-65d062af8472}'), ('HOME', '/home/add'), ('OLDPWD', '/home/add/Projects/ROS2/test3/src'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'add'), ('NAME', 'DESKTOP-G7U52L9'), ('WSL_INTEROP', '/run/WSL/1066_interop'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/TortoiseSVN/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Microsoft SQL Server/130/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/Bandizip/:/mnt/c/Program Files/MySQL/MySQL Utilities 1.6/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/add/anaconda3:/mnt/c/Users/add/anaconda3/Library:/mnt/c/Users/add/anaconda3/Scripts:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Python27:/mnt/c/Python38/Scripts/:/mnt/c/Python38/:/mnt/c/Python27/Scripts/:/mnt/c/Users/add/AppData/Local/Programs/Python/Python36/Scripts/:/mnt/c/Users/add/AppData/Local/Programs/Python/Python36/:/mnt/c/Users/add/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/add/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/add/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/add/.dotnet/tools:/mnt/c/Users/add/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files/JetBrains/PyCharm Community Edition 2022.2.4/bin:/mnt/c/Users/add/AppData/Local/GitHubDesktop/bin:/snap/bin'), ('WT_SESSION', '90ee8e72-0d86-4ca8-aae8-dd095e1f8f03'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/add/Projects/ROS2/test3/build/cpp_srvcli'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION::WT_PROFILE_ID'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[5.514649] (-) TimerEvent: {}
+[5.516542] (cpp_srvcli) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.516739] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/add/Projects/ROS2/test3/install/cpp_srvcli/lib/cpp_srvcli/server\n'}
+[5.517070] (cpp_srvcli) StdoutLine: {'line': b'-- Set runtime path of "/home/add/Projects/ROS2/test3/install/cpp_srvcli/lib/cpp_srvcli/server" to ""\n'}
+[5.517145] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/add/Projects/ROS2/test3/install/cpp_srvcli/lib/cpp_srvcli/client\n'}
+[5.517494] (cpp_srvcli) StdoutLine: {'line': b'-- Set runtime path of "/home/add/Projects/ROS2/test3/install/cpp_srvcli/lib/cpp_srvcli/client" to ""\n'}
+[5.517677] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/add/Projects/ROS2/test3/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli\n'}
+[5.517847] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/add/Projects/ROS2/test3/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli\n'}
+[5.518082] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/add/Projects/ROS2/test3/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh\n'}
+[5.518141] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/add/Projects/ROS2/test3/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv\n'}
+[5.518249] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/add/Projects/ROS2/test3/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh\n'}
+[5.518436] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/add/Projects/ROS2/test3/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv\n'}
+[5.518621] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/add/Projects/ROS2/test3/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash\n'}
+[5.518675] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/add/Projects/ROS2/test3/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh\n'}
+[5.518723] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/add/Projects/ROS2/test3/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh\n'}
+[5.518810] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/add/Projects/ROS2/test3/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv\n'}
+[5.518857] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/add/Projects/ROS2/test3/install/cpp_srvcli/share/cpp_srvcli/package.dsv\n'}
+[5.518962] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/add/Projects/ROS2/test3/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli\n'}
+[5.519137] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/add/Projects/ROS2/test3/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake\n'}
+[5.519334] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/add/Projects/ROS2/test3/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake\n'}
+[5.519389] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/add/Projects/ROS2/test3/install/cpp_srvcli/share/cpp_srvcli/package.xml\n'}
+[5.521328] (cpp_srvcli) CommandEnded: {'returncode': 0}
+[5.553826] (cpp_srvcli) JobEnded: {'identifier': 'cpp_srvcli', 'rc': 0}
+[5.554122] (-) EventReactorShutdown: {}

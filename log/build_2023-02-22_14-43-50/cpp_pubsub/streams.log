@@ -1,0 +1,48 @@
+[0.012s] Invoking command in '/home/add/Projects/ROS2/test3/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/add/Projects/ROS2/test3/build/cpp_pubsub -- -j20 -l20
+[0.026s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.040s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.161s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.280s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.282s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[3.172s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.209s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[3.210s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.319s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[3.362s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.362s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.362s] -- Configured cppcheck include dirs: 
+[3.362s] -- Configured cppcheck exclude dirs and/or files: 
+[3.363s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.363s] -- Configured cpplint exclude dirs and/or files: 
+[3.363s] -- Added test 'lint_cmake' to check CMake code style
+[3.363s] -- Added test 'uncrustify' to check C / C++ code style
+[3.363s] -- Configured uncrustify additional arguments: 
+[3.364s] -- Added test 'xmllint' to check XML markup files
+[3.365s] -- Configuring done
+[3.369s] -- Generating done
+[3.370s] -- Build files have been written to: /home/add/Projects/ROS2/test3/build/cpp_pubsub
+[3.385s] [35m[1mScanning dependencies of target talker[0m
+[3.481s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[5.627s] [100%] [32m[1mLinking CXX executable talker[0m
+[5.822s] [100%] Built target talker
+[5.831s] Invoked command in '/home/add/Projects/ROS2/test3/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/add/Projects/ROS2/test3/build/cpp_pubsub -- -j20 -l20
+[5.850s] Invoking command in '/home/add/Projects/ROS2/test3/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/add/Projects/ROS2/test3/build/cpp_pubsub
+[5.854s] -- Install configuration: ""
+[5.855s] -- Installing: /home/add/Projects/ROS2/test3/install/cpp_pubsub/lib/cpp_pubsub/talker
+[5.855s] -- Set runtime path of "/home/add/Projects/ROS2/test3/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""
+[5.855s] -- Up-to-date: /home/add/Projects/ROS2/test3/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[5.856s] -- Installing: /home/add/Projects/ROS2/test3/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[5.856s] -- Up-to-date: /home/add/Projects/ROS2/test3/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[5.856s] -- Installing: /home/add/Projects/ROS2/test3/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[5.856s] -- Up-to-date: /home/add/Projects/ROS2/test3/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[5.856s] -- Installing: /home/add/Projects/ROS2/test3/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[5.856s] -- Up-to-date: /home/add/Projects/ROS2/test3/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[5.857s] -- Up-to-date: /home/add/Projects/ROS2/test3/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[5.857s] -- Up-to-date: /home/add/Projects/ROS2/test3/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[5.857s] -- Installing: /home/add/Projects/ROS2/test3/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[5.857s] -- Installing: /home/add/Projects/ROS2/test3/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[5.857s] -- Up-to-date: /home/add/Projects/ROS2/test3/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[5.858s] -- Up-to-date: /home/add/Projects/ROS2/test3/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[5.858s] -- Up-to-date: /home/add/Projects/ROS2/test3/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[5.858s] -- Installing: /home/add/Projects/ROS2/test3/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[5.858s] Invoked command in '/home/add/Projects/ROS2/test3/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/add/Projects/ROS2/test3/build/cpp_pubsub

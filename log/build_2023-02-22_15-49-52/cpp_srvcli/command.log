@@ -1,0 +1,4 @@
+Invoking command in '/home/add/Projects/ROS2/test3/build/cpp_srvcli': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/add/Projects/ROS2/test3/src/cpp_srvcli -DCMAKE_INSTALL_PREFIX=/home/add/Projects/ROS2/test3/install/cpp_srvcli
+Invoked command in '/home/add/Projects/ROS2/test3/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/add/Projects/ROS2/test3/src/cpp_srvcli -DCMAKE_INSTALL_PREFIX=/home/add/Projects/ROS2/test3/install/cpp_srvcli
+Invoking command in '/home/add/Projects/ROS2/test3/build/cpp_srvcli': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/add/Projects/ROS2/test3/build/cpp_srvcli -- -j20 -l20
+Invoked command in '/home/add/Projects/ROS2/test3/build/cpp_srvcli' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/add/Projects/ROS2/test3/build/cpp_srvcli -- -j20 -l20
